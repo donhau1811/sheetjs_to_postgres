@@ -85,8 +85,12 @@ async function aoo_to_pg_table(client, aoo, table_name) {
 
 (async () => {
   /* read file and get first worksheet */
-  const oldwb = XLSX.readFile("pres.numbers");
+  const fileName = "pres.numbers";
+  const oldwb = XLSX.readFile(fileName);
   const oldws = oldwb.Sheets[oldwb.SheetNames[0]];
+
+  /* extract table name from file name */
+  const table_name = fileName.replace(/\.[^/.]+$/, "");
 
   /* import data to postgres */
   let client = new pg.Client(opts);
@@ -98,7 +102,7 @@ async function aoo_to_pg_table(client, aoo, table_name) {
     const aoo = XLSX.utils.sheet_to_json(oldws);
 
     /* create table and load data */
-    await aoo_to_pg_table(client, aoo, "Presidents");
+    await aoo_to_pg_table(client, aoo, table_name);
   } finally {
     /* disconnect */
     await client.end();
@@ -111,7 +115,7 @@ async function aoo_to_pg_table(client, aoo, table_name) {
     await client.connect();
 
     /* fetch all data from specified table */
-    const res = await client.query(format(`SELECT * FROM %I`, "Presidents"));
+    const res = await client.query(format(`SELECT * FROM %I`, [table_name]));
 
     /* export to file */
     const newws = XLSX.utils.json_to_sheet(res.rows);
