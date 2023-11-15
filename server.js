@@ -100,9 +100,10 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
     const fileName = req.file.path;
     const sheetName = req.body.sheetName;
     const oldwb = XLSX.readFile(fileName);
-    const oldws = oldwb.Sheets[oldwb.SheetNames[sheetName]];
-    // const oldws = oldwb.Sheets[sheetName];
-    const table_name = fileName.replace(/\.[^/.]+$/, "");
+    // const oldws = oldwb.Sheets[oldwb.SheetNames[sheetName]];
+    const oldws = oldwb.Sheets[sheetName];
+    // const table_name = fileName.replace(/\.[^/.]+$/, "");
+    const table_name = sheetName;
 
     const client = new pg.Client(opts);
     await client.connect();
@@ -119,6 +120,6 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
   }
 });
 
-app.listen(3000, () => {
-  console.log("Server is running on port 3000");
+app.listen(3001, () => {
+  console.log("Server is running on port 3001");
 });
