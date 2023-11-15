@@ -1,0 +1,62 @@
+TỔNG HỢP CHI PHÍ THEO ĐƠN VỊ VÀ KHOẢN MỤC CHI PHÍ,,,,,,
+Chi nhánh: CÔNG TY TNHH QUẢN LÝ VÀ KHAI THÁC BẤT ĐỘNG SẢN R.E.E; Đơn vị: e.town 1; Từ ngày 01/8/2023 đến ngày 14/8/2023,,,,,,
+Mã đơn vị,Tên đơn vị,Kỳ trước,Kỳ này,Lũy kế từ đầu năm,Mã khoản mục CP,Tên khoản mục CP
+         ECH-01,         e.town 1,"51,226,213 ","32,000,000 ","291,866,459 ",B48,Khác
+         ECH-01,         e.town 1,"376,842,838 ",0 ,"2,753,334,508 ",A01.1,Lương nhân viên
+         ECH-01,         e.town 1,"4,295,620 ",0 ,"30,164,880 ",A04,"Lương ngoài giờ, kiêm nhiệm, phụ cấp, công nhật .."
+         ECH-01,         e.town 1,"31,362,400 ",0 ,"224,034,800 ",A05,Tiền cơm trưa
+         ECH-01,         e.town 1,"76,712,460 ",0 ,"543,674,769 ",A06.1,Các khoản trích theo lương nhân viên
+         ECH-01,         e.town 1,"6,419,062 ",0 ,"79,074,934 ",A07,"Bảo hiểm NV, Khám sức khỏe"
+         ECH-01,         e.town 1,"4,951,144 ",0 ,"34,658,008 ",A08,Chi phí đồng phục
+         ECH-01,         e.town 1,"1,800,000 ",0 ,"26,800,000 ",A09,Chi phí đào tạo
+         ECH-01,         e.town 1,0 ,"105,723,750 ","112,723,750 ",A10,"Chi phí thuộc phúc lợi  NV( nghỉ mát, hiếu hỉ,…)"
+         ECH-01,         e.town 1,0 ,"6,685,901 ","12,685,901 ",B14,"Chi phí công tác,vé máy bay,…"
+         ECH-01,         e.town 1,0 ,0 ,"80,215,030 ",B15,"Tiếp khách, hội nghị"
+         ECH-01,         e.town 1,0 ,0 ,"3,300,000 ",B16,Chi phí biếu tặng
+         ECH-01,         e.town 1,0 ,0 ,"127,955,582 ",B18,Hoa hồng
+         ECH-01,         e.town 1,0 ,0 ,"2,000,000 ",B21,"Thuế, phí, lệ phí : môn bài, tài nguyên…."
+         ECH-01,         e.town 1,"1,055,556 ",0 ,"15,650,892 ",B24,"Chi phi kiểm toán, tư vấn,luật,thẩm định,..."
+         ECH-01,         e.town 1,0 ,0 ,"2,200,000 ",B63,Vé xe
+         ECH-01,         e.town 1,"2,017,827 ","436,700 ","26,824,527 ",B28,Phí Ngân Hàng
+         ECH-01,         e.town 1,"26,762,305 ",0 ,"187,336,255 ",B04,"Trích khấu hao TSCĐ,BDSDT"
+         ECH-01,         e.town 1,0 ,0 ,"14,234,014 ",B06,"Bảo hiểm tài sản, công trình"
+         ECH-01,         e.town 1,"30,552,066 ","683,400 ","84,317,071 ",B07,"Hành chánh phí: photo, mực in, chuyển phát nhanh,VPP…"
+         ECH-01,         e.town 1,"3,715,379 ","400,000 ","38,968,409 ",B08,"Điện thoại,Internet,email,…."
+         ECH-01,         e.town 1,"2,730,636 ",0 ,"33,159,091 ",B09,"Xăng dầu,bảo dưỡng bảo trì xe"
+         ECH-01,         e.town 1,0 ,0 ,"29,180,000 ",B10,Trang thiết bị văn phòng
+         ECH-01,         e.town 1,"15,063,465 ","760,000 ","66,687,355 ",B12,Sửa chữa nhỏ thường xuyên
+         ECH-01,         e.town 1,"28,791,870 ",0 ,"42,543,090 ",B46,Chi phí phần mềm vi tính
+         ECH-01,         e.town 1,"2,425,841 ",0 ,"17,306,583 ",B57,"Taxi, grap"
+         ECH-01,         e.town 1,"63,686,363 ",0 ,"431,652,267 ",B39-1A,Dịch vụ Bảo trì Thang máy
+         ECH-01,         e.town 1,"5,558,334 ",0 ,"38,908,338 ",B39-2A,Dịch vụ Bảo trì Máy phát điện
+         ECH-01,         e.town 1,0 ,0 ,"12,950,000 ",B39-2B,Chi phí vận hành - bảo trì Máy phát điện
+         ECH-01,         e.town 1,0 ,0 ,"21,645,455 ",B39-2C,Chi phí nhiên liệu chạy máy phát điện
+         ECH-01,         e.town 1,"9,900,000 ",0 ,"69,300,000 ",B39-3A,Dịch vụ Bảo trì Hệ thống lạnh/Chiller
+         ECH-01,         e.town 1,"8,541,108 ",0 ,"59,787,756 ",B39-3B,Dịch vụ Xử lý nước Chiller
+         ECH-01,         e.town 1,"5,605,000 ",0 ,"58,629,673 ",B39-3C,Chi phí vận hành - bảo trì Hệ thống lạnh/Chiller
+         ECH-01,         e.town 1,0 ,0 ,"17,454,545 ",B39-3D,Chi phí kiểm định Hệ thống lạnh/Chiller
+         ECH-01,         e.town 1,"4,333,333 ",0 ,"30,333,331 ",B39-4A,Dịch vụ Bảo trì Máy biến thế/Tủ điện
+         ECH-01,         e.town 1,0 ,0 ,"25,323,239 ",B39-4B,Chi phí vận hành - bảo trì Hệ thống chiếu sáng
+         ECH-01,         e.town 1,0 ,0 ,"11,776,000 ",B39-4C,Chi phí vận hành - bảo trì Hệ thống báo cháy
+         ECH-01,         e.town 1,0 ,0 ,"7,936,600 ",B39-4D,Chi phí vận hành - bảo trì Hệ thống Camera
+         ECH-01,         e.town 1,"3,956,875 ",0 ,"28,936,384 ",B39-4E,Chi phí cho Hệ thống Điện (khác)
+         ECH-01,         e.town 1,"8,709,000 ",0 ,"69,600,517 ",B39-5A,Hóa chất xử lý nước
+         ECH-01,         e.town 1,"1,035,000 ","645,000 ","2,715,000 ",B39-5B,"Chi phí cho hoạt động xử lý nước thải, môi trường (kiểm nghiệm, báo cáo, sửa chữa...)"
+         ECH-01,         e.town 1,"1,795,000 ",0 ,"67,479,464 ",B39-5C,Chi phí vận hành - bảo trì Hệ Nước
+         ECH-01,         e.town 1,0 ,"18,000,000 ","190,237,500 ",B40,Hạng mục Xây Dựng
+         ECH-01,         e.town 1,"37,637,875 ",0 ,"261,551,500 ",B41-1A,Dịch vụ cung cấp nhân sự Bảo vệ
+         ECH-01,         e.town 1,"91,842,568 ",0 ,"650,588,266 ",B41-1B,Dịch vụ cung cấp nhân sự Vệ Sinh
+         ECH-01,         e.town 1,"12,400,000 ",0 ,"86,800,000 ",B41-1C,Dịch vụ Chăm sóc Cây cảnh
+         ECH-01,         e.town 1,0 ,0 ,"15,740,000 ",B41-1C1,Chi phí trồng mới/tái lập cây cảnh
+         ECH-01,         e.town 1,"2,940,000 ",0 ,"20,580,000 ",B41-1D,Dịch vụ Pest Control
+         ECH-01,         e.town 1,"19,000,000 ",0 ,"134,000,000 ",B41-2A,Dịch vụ Thu gom rác thải sinh hoạt
+         ECH-01,         e.town 1,0 ,0 ,"4,166,666 ",B41-2B,Dịch vụ Thu gom rác thải nguy hại
+         ECH-01,         e.town 1,0 ,0 ,"33,000,000 ",B41-2C,Hút bể phốt/bể tách mỡ
+         ECH-01,         e.town 1,"10,072,000 ",0 ,"10,072,000 ",B41-2D,Dọn dẹp đường ống thoát nước mưa
+         ECH-01,         e.town 1,0 ,0 ,"9,300,000 ",B41-KH,Chi phí Thuê ngoài/Mua ngoài khác
+         ECH-01,         e.town 1,"44,326,800 ",0 ,"294,786,000 ",B42-1A,Chi phí giấy vệ sinh (toilet paper)
+         ECH-01,         e.town 1,"5,222,760 ",0 ,"35,679,696 ",B42-1B,Chi phí bao rác
+         ECH-01,         e.town 1,"741,000 ",0 ,"10,853,000 ",B42-1C,Chi phí vật tư vệ sinh khác
+         ECH-01,         e.town 1,"5,294,000 ",0 ,"21,428,636 ",B43,Chi phí cho hoạt động PCCC
+         ECH-01,         e.town 1,"471,639 ",0 ,"1,186,705 ",B44,"Chi phí kiểm định, báo cáo, xin giấy phép,... "
+Số dòng = 58,,,,,,

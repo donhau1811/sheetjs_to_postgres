@@ -3,16 +3,20 @@ const pg = require("pg");
 const format = require("pg-format");
 const XLSX = require("xlsx");
 const multer = require("multer");
+const cors = require('cors')
 
 const app = express();
 
+
 const opts = {
   database: "SheetJSPG",
-  host: "127.0.0.1", // localhost
+  host: "localhost", 
   port: 5432,
   user: "postgres",
   password: "khumcogi123",
 };
+
+app.use(cors())
 
 async function aoo_to_pg_table(client, aoo, table_name) {
   // ... rest of the code remains the same
@@ -94,8 +98,10 @@ const upload = multer({ dest: "uploads/" });
 app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
   try {
     const fileName = req.file.path;
+    const sheetName = req.body.sheetName;
     const oldwb = XLSX.readFile(fileName);
-    const oldws = oldwb.Sheets[oldwb.SheetNames[0]];
+    const oldws = oldwb.Sheets[oldwb.SheetNames[sheetName]];
+    // const oldws = oldwb.Sheets[sheetName];
     const table_name = fileName.replace(/\.[^/.]+$/, "");
 
     const client = new pg.Client(opts);
