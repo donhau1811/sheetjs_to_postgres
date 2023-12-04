@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "Hau Tran",
@@ -24,5 +25,8 @@
     "url": "https://github.com/donhau1811/sheetjs_to_postgres/issues"
   },
   "homepage": "https://github.com/donhau1811/sheetjs_to_postgres#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
