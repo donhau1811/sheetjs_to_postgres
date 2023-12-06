@@ -4,7 +4,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.1",
-    amount: 442892635,
+    amount: 373892278,
     initial_amount: null,
   },
   {
@@ -12,7 +12,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.1",
-    amount: 381299833,
+    amount: 328381882,
     initial_amount: null,
   },
   {
@@ -20,7 +20,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.1",
-    amount: 160444776,
+    amount: 135680041,
     initial_amount: null,
   },
   {
@@ -28,7 +28,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.1",
-    amount: 240391329,
+    amount: 208378646,
     initial_amount: null,
   },
   {
@@ -36,7 +36,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.1",
-    amount: 340040605,
+    amount: 278636244,
     initial_amount: null,
   },
   {
@@ -44,7 +44,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.1",
-    amount: 365411016,
+    amount: 290435795,
     initial_amount: null,
   },
   {
@@ -52,7 +52,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.1",
-    amount: 545337102,
+    amount: 461501059,
     initial_amount: null,
   },
   {
@@ -68,7 +68,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.1",
-    amount: 123684932,
+    amount: 84456814,
     initial_amount: null,
   },
   {
@@ -76,7 +76,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.2",
-    amount: 4470280,
+    amount: 4229800,
     initial_amount: null,
   },
   {
@@ -84,7 +84,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.2",
-    amount: 3554900,
+    amount: 3354500,
     initial_amount: null,
   },
   {
@@ -92,7 +92,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.2",
-    amount: 1670180,
+    amount: 1576660,
     initial_amount: null,
   },
   {
@@ -100,7 +100,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.2",
-    amount: 3883960,
+    amount: 3653800,
     initial_amount: null,
   },
   {
@@ -108,7 +108,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.2",
-    amount: 3032560,
+    amount: 2722240,
     initial_amount: null,
   },
   {
@@ -116,7 +116,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.2",
-    amount: 5860700,
+    amount: 5687020,
     initial_amount: null,
   },
   {
@@ -124,7 +124,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.2",
-    amount: 6402560,
+    amount: 6028480,
     initial_amount: null,
   },
   {
@@ -140,7 +140,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.2",
-    amount: 508860,
+    amount: 495500,
     initial_amount: null,
   },
   {
@@ -148,7 +148,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.3",
-    amount: 32085000,
+    amount: 31754200,
     initial_amount: null,
   },
   {
@@ -156,7 +156,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.3",
-    amount: 29947000,
+    amount: 29675000,
     initial_amount: null,
   },
   {
@@ -164,7 +164,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.3",
-    amount: 11453800,
+    amount: 11329800,
     initial_amount: null,
   },
   {
@@ -172,7 +172,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.3",
-    amount: 19882800,
+    amount: 20814000,
     initial_amount: null,
   },
   {
@@ -180,7 +180,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.3",
-    amount: 25049800,
+    amount: 24819000,
     initial_amount: null,
   },
   {
@@ -188,7 +188,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.3",
-    amount: 25313600,
+    amount: 25173200,
     initial_amount: null,
   },
   {
@@ -196,7 +196,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.3",
-    amount: 39683200,
+    amount: 39340800,
     initial_amount: null,
   },
   {
@@ -212,7 +212,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.3",
-    amount: 9764800,
+    amount: 9514000,
     initial_amount: null,
   },
   {
@@ -220,7 +220,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.4",
-    amount: 78243046,
+    amount: 77361278,
     initial_amount: null,
   },
   {
@@ -228,7 +228,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.4",
-    amount: 67761541,
+    amount: 66372930,
     initial_amount: null,
   },
   {
@@ -236,7 +236,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.4",
-    amount: 28175284,
+    amount: 27816687,
     initial_amount: null,
   },
   {
@@ -244,7 +244,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.4",
-    amount: 43354717,
+    amount: 41149392,
     initial_amount: null,
   },
   {
@@ -252,7 +252,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.4",
-    amount: 57186777,
+    amount: 56187703,
     initial_amount: null,
   },
   {
@@ -260,7 +260,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.4",
-    amount: 59539276,
+    amount: 57522750,
     initial_amount: null,
   },
   {
@@ -268,7 +268,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.4",
-    amount: 88926698,
+    amount: 87581325,
     initial_amount: null,
   },
   {
@@ -284,7 +284,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.4",
-    amount: 15412372,
+    amount: 15431175,
     initial_amount: null,
   },
   {
@@ -508,7 +508,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.7",
-    amount: 2000000,
+    amount: 0,
     initial_amount: null,
   },
   {
@@ -516,7 +516,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.7",
-    amount: 2000000,
+    amount: 0,
     initial_amount: null,
   },
   {
@@ -556,7 +556,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.1.7",
-    amount: 2000000,
+    amount: 0,
     initial_amount: null,
   },
   {
@@ -580,7 +580,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.2.0",
-    amount: 37000000,
+    amount: 37637875,
     initial_amount: null,
   },
   {
@@ -588,7 +588,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.2.0",
-    amount: 83290000,
+    amount: 83927875,
     initial_amount: null,
   },
   {
@@ -596,7 +596,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.2.0",
-    amount: 47000000,
+    amount: 47637875,
     initial_amount: null,
   },
   {
@@ -604,7 +604,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.2.0",
-    amount: 164225000,
+    amount: 166619250,
     initial_amount: null,
   },
   {
@@ -612,7 +612,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.2.0",
-    amount: 72000000,
+    amount: 72637875,
     initial_amount: null,
   },
   {
@@ -620,7 +620,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.2.0",
-    amount: 88830000,
+    amount: 92271500,
     initial_amount: null,
   },
   {
@@ -628,7 +628,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.2.0",
-    amount: 147620000,
+    amount: 153001000,
     initial_amount: null,
   },
   {
@@ -636,7 +636,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.2.0",
-    amount: 18690000,
+    amount: 19624500,
     initial_amount: null,
   },
   {
@@ -652,7 +652,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.3.0",
-    amount: 81298546,
+    amount: 90912334,
     initial_amount: null,
   },
   {
@@ -796,7 +796,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.1",
-    amount: 30816000,
+    amount: 47653200,
     initial_amount: null,
   },
   {
@@ -804,7 +804,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.1",
-    amount: 20256000,
+    amount: 29761200,
     initial_amount: null,
   },
   {
@@ -812,7 +812,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.1",
-    amount: 13944000,
+    amount: 17917200,
     initial_amount: null,
   },
   {
@@ -820,7 +820,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.1",
-    amount: 1320000,
+    amount: 1638000,
     initial_amount: null,
   },
   {
@@ -828,7 +828,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.1",
-    amount: 13477200,
+    amount: 18270000,
     initial_amount: null,
   },
   {
@@ -836,7 +836,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.1",
-    amount: 31440000,
+    amount: 43108160,
     initial_amount: null,
   },
   {
@@ -844,7 +844,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.1",
-    amount: 41856000,
+    amount: 56655000,
     initial_amount: null,
   },
   {
@@ -860,7 +860,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.1",
-    amount: 3120000,
+    amount: 2160000,
     initial_amount: null,
   },
   {
@@ -868,7 +868,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.2",
-    amount: 5461071,
+    amount: 6274879,
     initial_amount: null,
   },
   {
@@ -876,7 +876,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.2",
-    amount: 4688768,
+    amount: 5639836,
     initial_amount: null,
   },
   {
@@ -884,7 +884,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.2",
-    amount: 3055554,
+    amount: 3473069,
     initial_amount: null,
   },
   {
@@ -892,7 +892,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.2",
-    amount: 1177000,
+    amount: 1854793,
     initial_amount: null,
   },
   {
@@ -900,7 +900,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.2",
-    amount: 2975500,
+    amount: 2948822,
     initial_amount: null,
   },
   {
@@ -908,7 +908,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.2",
-    amount: 6650000,
+    amount: 3530000,
     initial_amount: null,
   },
   {
@@ -916,7 +916,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.2",
-    amount: 7930000,
+    amount: 14370000,
     initial_amount: null,
   },
   {
@@ -932,7 +932,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.2",
-    amount: 3190000,
+    amount: 3720000,
     initial_amount: null,
   },
   {
@@ -940,7 +940,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.3",
-    amount: 47758841,
+    amount: 26762325,
     initial_amount: null,
   },
   {
@@ -948,7 +948,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.3",
-    amount: 23771700,
+    amount: 6274604,
     initial_amount: null,
   },
   {
@@ -956,7 +956,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.3",
-    amount: 10844474,
+    amount: 2679163,
     initial_amount: null,
   },
   {
@@ -964,7 +964,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.3",
-    amount: 9295263,
+    amount: 2296424,
     initial_amount: null,
   },
   {
@@ -972,7 +972,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.3",
-    amount: 19461498,
+    amount: 5463821,
     initial_amount: null,
   },
   {
@@ -980,7 +980,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.3",
-    amount: 20139737,
+    amount: 4975587,
     initial_amount: null,
   },
   {
@@ -988,7 +988,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.3",
-    amount: 43377894,
+    amount: 10716649,
     initial_amount: null,
   },
   {
@@ -1004,7 +1004,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.3",
-    amount: 3423460,
+    amount: 2256987,
     initial_amount: null,
   },
   {
@@ -1012,7 +1012,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.4",
-    amount: 7067000,
+    amount: 6967500,
     initial_amount: null,
   },
   {
@@ -1020,7 +1020,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.4",
-    amount: 8251500,
+    amount: 4885000,
     initial_amount: null,
   },
   {
@@ -1028,7 +1028,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.4",
-    amount: 11624500,
+    amount: 1344000,
     initial_amount: null,
   },
   {
@@ -1036,7 +1036,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.4",
-    amount: 9993500,
+    amount: 11060500,
     initial_amount: null,
   },
   {
@@ -1044,7 +1044,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.4",
-    amount: 6970000,
+    amount: 6205500,
     initial_amount: null,
   },
   {
@@ -1052,7 +1052,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.4",
-    amount: 0,
+    amount: 1350000,
     initial_amount: null,
   },
   {
@@ -1076,7 +1076,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.4",
-    amount: 3376000,
+    amount: 0,
     initial_amount: null,
   },
   {
@@ -1084,7 +1084,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.5",
-    amount: 64646064,
+    amount: 96846919,
     initial_amount: null,
   },
   {
@@ -1092,7 +1092,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.5",
-    amount: 6198406,
+    amount: 7758406,
     initial_amount: null,
   },
   {
@@ -1108,7 +1108,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.5",
-    amount: 1432918,
+    amount: 16732918,
     initial_amount: null,
   },
   {
@@ -1116,7 +1116,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.5",
-    amount: 4318822,
+    amount: 15178822,
     initial_amount: null,
   },
   {
@@ -1124,7 +1124,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.5",
-    amount: 13194104,
+    amount: 23915366,
     initial_amount: null,
   },
   {
@@ -1132,7 +1132,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.5",
-    amount: 18041147,
+    amount: 18852512,
     initial_amount: null,
   },
   {
@@ -1148,7 +1148,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "A.5.5",
-    amount: 218273,
+    amount: 594637,
     initial_amount: null,
   },
   {
@@ -1244,7 +1244,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.2",
-    amount: 0,
+    amount: 28135560,
     initial_amount: null,
   },
   {
@@ -1252,7 +1252,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.2",
-    amount: 0,
+    amount: 695000,
     initial_amount: null,
   },
   {
@@ -1300,7 +1300,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.3",
-    amount: 14306300,
+    amount: 5429373,
     initial_amount: null,
   },
   {
@@ -1308,7 +1308,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.3",
-    amount: 1785000,
+    amount: 7556091,
     initial_amount: null,
   },
   {
@@ -1316,7 +1316,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.3",
-    amount: 2258000,
+    amount: 6866182,
     initial_amount: null,
   },
   {
@@ -1332,7 +1332,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.3",
-    amount: 0,
+    amount: 2942636,
     initial_amount: null,
   },
   {
@@ -1372,7 +1372,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.4",
-    amount: 3525000,
+    amount: 12691473,
     initial_amount: null,
   },
   {
@@ -1380,7 +1380,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.4",
-    amount: 2120000,
+    amount: 8821818,
     initial_amount: null,
   },
   {
@@ -1388,7 +1388,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.4",
-    amount: 1080000,
+    amount: 27131092,
     initial_amount: null,
   },
   {
@@ -1396,7 +1396,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.4",
-    amount: 4600000,
+    amount: 600000,
     initial_amount: null,
   },
   {
@@ -1404,7 +1404,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.4",
-    amount: 22656637,
+    amount: 6601000,
     initial_amount: null,
   },
   {
@@ -1412,7 +1412,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.4",
-    amount: 0,
+    amount: 16435000,
     initial_amount: null,
   },
   {
@@ -1420,7 +1420,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.4",
-    amount: 3485858,
+    amount: 6981622,
     initial_amount: null,
   },
   {
@@ -1428,7 +1428,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.4",
-    amount: 0,
+    amount: 400000,
     initial_amount: null,
   },
   {
@@ -1436,7 +1436,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.4",
-    amount: 0,
+    amount: 400000,
     initial_amount: null,
   },
   {
@@ -1444,7 +1444,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.5",
-    amount: 14787000,
+    amount: 15461199,
     initial_amount: null,
   },
   {
@@ -1452,7 +1452,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.5",
-    amount: 12699500,
+    amount: 16961609,
     initial_amount: null,
   },
   {
@@ -1460,7 +1460,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.5",
-    amount: 3141000,
+    amount: 2331818,
     initial_amount: null,
   },
   {
@@ -1468,7 +1468,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.5",
-    amount: 9146000,
+    amount: 0,
     initial_amount: null,
   },
   {
@@ -1476,7 +1476,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.5",
-    amount: 21848000,
+    amount: 9005000,
     initial_amount: null,
   },
   {
@@ -1484,7 +1484,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.5",
-    amount: 6190000,
+    amount: 21401818,
     initial_amount: null,
   },
   {
@@ -1492,7 +1492,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.5",
-    amount: 20270000,
+    amount: 33180000,
     initial_amount: null,
   },
   {
@@ -1516,7 +1516,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.6",
-    amount: 5229800,
+    amount: 15385364,
     initial_amount: null,
   },
   {
@@ -1524,7 +1524,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.6",
-    amount: 3446500,
+    amount: 3359182,
     initial_amount: null,
   },
   {
@@ -1532,7 +1532,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.6",
-    amount: 4219800,
+    amount: 38129182,
     initial_amount: null,
   },
   {
@@ -1548,7 +1548,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.6",
-    amount: 2316600,
+    amount: 18400000,
     initial_amount: null,
   },
   {
@@ -1556,7 +1556,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.6",
-    amount: 0,
+    amount: 64240742,
     initial_amount: null,
   },
   {
@@ -1564,7 +1564,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.1.6",
-    amount: 21037500,
+    amount: 0,
     initial_amount: null,
   },
   {
@@ -1596,7 +1596,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.2.1",
-    amount: 43411667,
+    amount: 45582499,
     initial_amount: null,
   },
   {
@@ -1652,7 +1652,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.2.1",
-    amount: 2100000,
+    amount: 1968000,
     initial_amount: null,
   },
   {
@@ -1676,7 +1676,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.2.2",
-    amount: 1031042,
+    amount: 695000,
     initial_amount: null,
   },
   {
@@ -1684,7 +1684,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.2.2",
-    amount: 1031042,
+    amount: 0,
     initial_amount: null,
   },
   {
@@ -1700,7 +1700,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.2.2",
-    amount: 1446667,
+    amount: 2500000,
     initial_amount: null,
   },
   {
@@ -1732,7 +1732,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.2.3",
-    amount: 9000000,
+    amount: 12600000,
     initial_amount: null,
   },
   {
@@ -1748,7 +1748,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.2.3",
-    amount: 4500000,
+    amount: 4950000,
     initial_amount: null,
   },
   {
@@ -1764,7 +1764,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.2.3",
-    amount: 6833333,
+    amount: 9570001,
     initial_amount: null,
   },
   {
@@ -1772,7 +1772,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "B.2.3",
-    amount: 6581666,
+    amount: 7239750,
     initial_amount: null,
   },
   {
@@ -2060,7 +2060,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.2.0",
-    amount: 1500000,
+    amount: 0,
     initial_amount: null,
   },
   {
@@ -2068,7 +2068,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.2.0",
-    amount: 11000000,
+    amount: 0,
     initial_amount: null,
   },
   {
@@ -2092,7 +2092,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.3.0",
-    amount: 20000000,
+    amount: 19000000,
     initial_amount: null,
   },
   {
@@ -2132,7 +2132,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.3.0",
-    amount: 13800000,
+    amount: 12144000,
     initial_amount: null,
   },
   {
@@ -2140,7 +2140,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.3.0",
-    amount: 18160000,
+    amount: 15288000,
     initial_amount: null,
   },
   {
@@ -2164,7 +2164,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.3.1",
-    amount: 20000000,
+    amount: 19000000,
     initial_amount: null,
   },
   {
@@ -2204,7 +2204,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.3.1",
-    amount: 13800000,
+    amount: 12144000,
     initial_amount: null,
   },
   {
@@ -2212,7 +2212,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.3.1",
-    amount: 18160000,
+    amount: 15288000,
     initial_amount: null,
   },
   {
@@ -2492,7 +2492,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.5.0",
-    amount: 9000000,
+    amount: 0,
     initial_amount: null,
   },
   {
@@ -2500,7 +2500,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.5.0",
-    amount: 9000000,
+    amount: 0,
     initial_amount: null,
   },
   {
@@ -2564,7 +2564,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.6.0",
-    amount: 520000,
+    amount: 546000,
     initial_amount: null,
   },
   {
@@ -2572,7 +2572,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.6.0",
-    amount: 1170000,
+    amount: 1228500,
     initial_amount: null,
   },
   {
@@ -2708,7 +2708,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.6.2",
-    amount: 520000,
+    amount: 546000,
     initial_amount: null,
   },
   {
@@ -2716,7 +2716,7 @@
     report_date: "2023-01-31T00:00:00.000Z",
     report_start: "2023-01-01T00:00:00.000Z",
     account_key: "C.6.2",
-    amount: 1170000,
+    amount: 1228500,
     initial_amount: null,
   },
   {

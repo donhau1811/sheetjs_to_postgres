@@ -8,11 +8,11 @@ const cors = require("cors");
 const app = express();
 
 const opts = {
-  database: "SheetJSPG",
-  host: "localhost",
+  database: "rre_dataset",
+  host: "192.168.100.24",
   port: 5432,
   user: "postgres",
-  password: "khumcogi123",
+  password: "40ebd8f159eec821b3ed519ce89e3b93",
 };
 
 app.use(cors());
@@ -69,14 +69,14 @@ async function aoo_to_pg_table(client, aoo, table_name) {
 
   /* Create table */
 
-  {
-    const entries = Object.entries(types);
-    const Istr = entries.map((e) => format(`%I ${e[1]}`, e[0])).join(", ");
-    let query = format.withArray(`CREATE TABLE IF NOT EXISTS %I (${Istr});`, [
-      table_name,
-    ]);
-    await client.query(query);
-  }
+  // {
+  //   const entries = Object.entries(types);
+  //   const Istr = entries.map((e) => format(`%I ${e[1]}`, e[0])).join(", ");
+  //   let query = format.withArray(`CREATE TABLE IF NOT EXISTS %I (${Istr});`, [
+  //     table_name,
+  //   ]);
+  //   await client.query(query);
+  // }
 
   /* Insert each row */
   for (let row of aoo) {
@@ -105,7 +105,8 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
     // const oldws = oldwb.Sheets[oldwb.SheetNames[sheetName]];
     const oldws = oldwb.Sheets[sheetName];
     // const table_name = fileName.replace(/\.[^/.]+$/, "");
-    const table_name = sheetName;
+    // const table_name = sheetName;
+    const table_name = `building_accounting_fact_sample`;
 
     const client = new pg.Client(opts);
     await client.connect();
@@ -238,10 +239,10 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
       })
       .flat();
 
-    console.log(JSON.stringify(secondArray))
+    // console.log(JSON.stringify(secondArray))
     // console.log(secondArray)
 
-    // await aoo_to_pg_table(client, filteredAoo, table_name);
+    await aoo_to_pg_table(client, secondArray, table_name);
 
     await client.end();
 
