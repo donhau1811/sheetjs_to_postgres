@@ -20,48 +20,48 @@ app.use(cors());
 async function aoo_to_pg_table(client, aoo, table_name) {
   // ... rest of the code remains the same
   /* define types that can be converted (e.g. boolean can be stored in float) */
-  const T_FLOAT = ["float8", "boolean"];
-  const T_BOOL = ["boolean"];
+  // const T_FLOAT = ["float8", "boolean"];
+  // const T_BOOL = ["boolean"];
 
   /* types is a map from column headers to Knex schema column type */
-  const types = {};
+  // const types = {};
 
   /* names is an ordered list of the column header names */
-  const names = [];
+  // const names = [];
 
   /* loop across each row object */
-  aoo.forEach((row) =>
-    /* Object.entries returns a row of [key, value] pairs */
-    Object.entries(row).forEach(([k, v]) => {
-      /* If this is first occurrence, mark unknown and append header to names */
-      if (!types[k]) {
-        types[k] = "";
-        names.push(k);
-      }
+  // aoo.forEach((row) =>
+  //   /* Object.entries returns a row of [key, value] pairs */
+  //   Object.entries(row).forEach(([k, v]) => {
+  //     /* If this is first occurrence, mark unknown and append header to names */
+  //     if (!types[k]) {
+  //       types[k] = "";
+  //       names.push(k);
+  //     }
 
-      /* skip null and undefined values */
-      if (v == null) return;
+  //     /* skip null and undefined values */
+  //     if (v == null) return;
 
-      /* check and resolve type */
-      switch (typeof v) {
-        /* change type if it is empty or can be stored in a float */
-        case "number":
-          if (!types[k] || T_FLOAT.includes(types[k])) types[k] = "float8";
-          break;
-        /* change type if it is empty or can be stored in a boolean */
-        case "boolean":
-          if (!types[k] || T_BOOL.includes(types[k])) types[k] = "boolean";
-          break;
-        /* no other type can hold strings */
-        case "string":
-          types[k] = "text";
-          break;
-        default:
-          types[k] = "text";
-          break;
-      }
-    })
-  );
+  //     /* check and resolve type */
+  //     switch (typeof v) {
+  //       /* change type if it is empty or can be stored in a float */
+  //       case "number":
+  //         if (!types[k] || T_FLOAT.includes(types[k])) types[k] = "float8";
+  //         break;
+  //       /* change type if it is empty or can be stored in a boolean */
+  //       case "boolean":
+  //         if (!types[k] || T_BOOL.includes(types[k])) types[k] = "boolean";
+  //         break;
+  //       /* no other type can hold strings */
+  //       case "string":
+  //         types[k] = "text";
+  //         break;
+  //       default:
+  //         types[k] = "text";
+  //         break;
+  //     }
+  //   })
+  // );
 
   /* Delete table if it exists in the DB */
   //   const query = format("DROP TABLE IF EXISTS %I;", table_name);
@@ -83,11 +83,15 @@ async function aoo_to_pg_table(client, aoo, table_name) {
     const ent = Object.entries(row);
     const Istr = Array.from({ length: ent.length }, () => "%I").join(", ");
     const Lstr = Array.from({ length: ent.length }, () => "%L").join(", ");
-    let query = format.withArray(`INSERT INTO %I (${Istr}) VALUES (${Lstr});`, [
-      table_name,
-      ...ent.map((x) => x[0]),
-      ...ent.map((x) => x[1]),
-    ]);
+    // let query = format.withArray(`INSERT INTO %I (${Istr}) VALUES (${Lstr});`, [
+    //   table_name,
+    //   ...ent.map((x) => x[0]),
+    //   ...ent.map((x) => x[1]),
+    // ]);
+    let query = format.withArray(
+      `INSERT INTO %I (${Istr}) VALUES (${Lstr}) ON CONFLICT (building_key, report_date, report_start, account_key) DO UPDATE SET amount = EXCLUDED.amount, initial_amount = EXCLUDED.initial_amount;`,
+      [table_name, ...ent.map((x) => x[0]), ...ent.map((x) => x[1])]
+    );
     await client.query(query);
   }
 
@@ -111,11 +115,10 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
     const client = new pg.Client(opts);
     await client.connect();
 
-    const aoo = XLSX.utils.sheet_to_json(
-      oldws,
-      { header: [0, 0, 2, 3, 4, 5, 6, 7, 8, 12, 9], defval: 0 }
-      
-    );
+    let aoo = XLSX.utils.sheet_to_json(oldws, {
+      header: [0, 0, 2, 3, 4, 5, 6, 7, 8, 12, 9],
+      defval: 0,
+    });
 
     // console.log(JSON.stringify(aoo));
 
@@ -127,7 +130,7 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
       "Thưởng hoàn thành công việc": "A.1.5",
       "Chi phí đồng phục, giày, bảo hộ lao động": "A.1.6",
       "Chi phí bảo hiểm & kiểm tra sức khoẻ": "A.1.7",
-      "Chi phí có tính chất phúc lợi (nghỉ mát, hiếu hỉ…)": "A.1.7",
+      "Chi phí có tính chất phúc lợi (nghỉ mát, hiếu hỉ…)": "A.1.8",
       "Chi phí Bảo Vệ thuê ngoài": "A.2.0",
       "Chi phí Vệ Sinh thuê ngoài": "A.3.0",
       "Khuyến khích bán hàng theo chính sách của REE": "A.4.0",
@@ -180,6 +183,7 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
       "A.1.5",
       "A.1.6",
       "A.1.7",
+      "A.1.8",
       "A.2.0",
       "A.3.0",
       "A.4.0",
@@ -214,14 +218,9 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
       "C.6.4",
     ];
 
-    let filteredAoo = aoo.filter((element) =>
-      keysToFilter.includes(element["0"])
-    );
+    aoo = aoo.filter((element) => keysToFilter.includes(element["0"]));
 
-    // console.log(JSON.stringify(filteredAoo))
-    // console.log(filteredAoo)
-
-    const secondArray = filteredAoo
+    aoo = aoo
       .map((obj) => {
         const buildingKeys = Object.keys(obj).filter((key) => key !== "0");
         const reportDate = "2023-01-31T00:00:00.000Z";
@@ -233,20 +232,23 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
           report_date: reportDate,
           report_start: reportStart,
           account_key: accountKey,
-          amount: obj[buildingKey] || 0,
+          amount: obj[buildingKey],
           initial_amount: null,
         }));
       })
       .flat();
 
-    // console.log(JSON.stringify(secondArray))
-    // console.log(secondArray)
+    // console.log(JSON.stringify(aoo));
 
-    await aoo_to_pg_table(client, secondArray, table_name);
+    await aoo_to_pg_table(client, aoo, table_name);
 
     await client.end();
 
-    res.json({ success: true, message: "Data imported successfully." });
+    res.json({
+      success: true,
+      message: "Data imported successfully.",
+      aoo,
+    });
   } catch (error) {
     res
       .status(500)
