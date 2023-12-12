@@ -17,6 +17,26 @@ const opts = {
 
 app.use(cors());
 
+function getMonthStartAndEndDate(monthString) {
+  const dateObject = new Date(monthString);
+
+  const year = dateObject.getFullYear(); // Get the full year
+  const month = dateObject.getMonth(); // Get the month (0-11)
+
+  // Calculate the start date of the month
+  const startDate = new Date(year, month, 1);
+  const formattedStartDate = `${startDate.getFullYear()}-${(startDate.getMonth() + 1).toString().padStart(2, '0')}-${startDate.getDate().toString().padStart(2, '0')}`;
+
+  // Calculate the end date of the month
+  const endDate = new Date(year, month + 1, 0);
+  const formattedEndDate = `${endDate.getFullYear()}-${(endDate.getMonth() + 1).toString().padStart(2, '0')}-${endDate.getDate().toString().padStart(2, '0')}`;
+
+  return {
+    startDate: formattedStartDate,
+    endDate: formattedEndDate
+  };
+}
+
 async function aoo_to_pg_table(client, aoo, table_name) {
   // ... rest of the code remains the same
   /* define types that can be converted (e.g. boolean can be stored in float) */
@@ -89,7 +109,8 @@ async function aoo_to_pg_table(client, aoo, table_name) {
     //   ...ent.map((x) => x[1]),
     // ]);
     let query = format.withArray(
-      `INSERT INTO %I (${Istr}) VALUES (${Lstr}) ON CONFLICT (building_key, report_date, report_start, account_key) DO UPDATE SET amount = EXCLUDED.amount, initial_amount = EXCLUDED.initial_amount;`,
+      // `INSERT INTO %I (${Istr}) VALUES (${Lstr}) ON CONFLICT (building_key, report_date, report_start, account_key) DO UPDATE SET amount = EXCLUDED.amount, initial_amount = EXCLUDED.initial_amount;`,
+      `INSERT INTO %I (${Istr}) VALUES (${Lstr})`,
       [table_name, ...ent.map((x) => x[0]), ...ent.map((x) => x[1])]
     );
     await client.query(query);
@@ -105,6 +126,10 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
   try {
     const fileName = req.file.path;
     const sheetName = req.body.sheetName;
+    const month = req.body.month;
+    
+    const {startDate, endDate} = getMonthStartAndEndDate(month)
+ 
     const oldwb = XLSX.readFile(fileName);
     // const oldws = oldwb.Sheets[oldwb.SheetNames[sheetName]];
     const oldws = oldwb.Sheets[sheetName];
@@ -152,13 +177,13 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
       "Dịch vụ bảo trì máy biến thế / tủ điện": "B.2.5",
       "Dịch vụ Pest Control": "C.1.0",
       "Dịch vụ chăm sóc cây kiểng": "C.2.0",
-      "Dịch vụ thu gom chất thải & rút hầm cầu": "C.3.0",
+      // "Dịch vụ thu gom chất thải & rút hầm cầu": "C.3.0",
       "Thu gom rác sinh hoạt": "C.3.1",
       "Rút hầm cầu/bể tách mỡ": "C.3.2",
       "Xử lý chất thải nguy hại": "C.3.3",
       "Dịch vụ vệ sinh mặt kính / tường, sàn bên ngoài": "C.4.0",
       "Chi phí giữ an ninh & trật tự bên ngoài toà nhà": "C.5.0",
-      "Dịch vụ bảo trì khác (Hệ thống giữ xe, Khử mùi toilet…)": "C.6.0",
+      // "Dịch vụ bảo trì khác (Hệ thống giữ xe, Khử mùi toilet…)": "C.6.0",
       "Hệ thống giữ xe": "C.6.1",
       "Khử mùi toilet": "C.6.2",
       "Tổng đài điện thoại": "C.6.3",
@@ -205,13 +230,13 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
       "B.2.5",
       "C.1.0",
       "C.2.0",
-      "C.3.0",
+      // "C.3.0",
       "C.3.1",
       "C.3.2",
       "C.3.3",
       "C.4.0",
       "C.5.0",
-      "C.6.0",
+      // "C.6.0",
       "C.6.1",
       "C.6.2",
       "C.6.3",
@@ -223,8 +248,8 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
     aoo = aoo
       .map((obj) => {
         const buildingKeys = Object.keys(obj).filter((key) => key !== "0");
-        const reportDate = "2023-01-31T00:00:00.000Z";
-        const reportStart = "2023-01-01T00:00:00.000Z";
+        const reportDate = endDate;
+        const reportStart = startDate;
         const accountKey = obj["0"];
 
         return buildingKeys.map((buildingKey) => ({
@@ -246,8 +271,7 @@ app.post("/import-excel", upload.single("excelFile"), async (req, res) => {
 
     res.json({
       success: true,
-      message: "Data imported successfully.",
-      aoo,
+      message: "Data imported successfully."
     });
   } catch (error) {
     res
